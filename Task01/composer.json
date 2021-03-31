@@ -1,0 +1,22 @@
+{
+    "name": "lab/task01",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Kirill Antonov",
+            "email": "kirillantonov970@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Test.php"
+        ]
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
